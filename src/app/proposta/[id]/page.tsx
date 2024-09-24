@@ -11,11 +11,11 @@ export default function BudgetView({ params }: { params: { id: string } }) {
 
   return (
     <main className="flex h-full justify-center py-5 print:py-0">
-      <ResponsiveScale>
-        <HydrationBoundary state={dehydrate(queryClient)}>
-          <Budget id={params.id} />
-        </HydrationBoundary>
-      </ResponsiveScale>
+      {/* <ResponsiveScale> */}
+      <HydrationBoundary state={dehydrate(queryClient)}>
+        <Budget id={params.id} />
+      </HydrationBoundary>
+      {/* </ResponsiveScale> */}
     </main>
   )
 }

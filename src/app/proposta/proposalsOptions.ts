@@ -40,7 +40,7 @@ export const proposalsOptios = (id: string) => {
     queryKey: ['proposal', id],
     queryFn: async () => {
       const response = await fetch(
-        `http://localhost:3333/proposals/view/${id}`,
+        `${process.env.API_BASE_URL}/proposals/view/${id}`,
         { cache: 'no-cache' }
       )
 

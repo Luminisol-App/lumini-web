@@ -346,7 +346,7 @@ export function Budget({ id }: BudgetProps) {
             id="month-of-the-year"
             className="absolute bottom-20 text-lg text-[#72B62B]"
           >
-            {MONTHS_FULL[Number(createdAt.split('-')[1])]} {'DE '}
+            {MONTHS_FULL[Number(createdAt.split('-')[1]) - 1]} {'DE '}
             {createdAt.split('-')[0]}
           </h3>
         </div>
