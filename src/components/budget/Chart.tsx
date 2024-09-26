@@ -33,8 +33,8 @@ export function Chart({ data }: ChartProps) {
           />
           <Legend
             payload={[
-              { value: 'Consumo', type: 'rect', color: '#d4a028' },
-              { value: 'Geração', type: 'rect', color: '#27761E' }
+              { value: 'Geração', type: 'rect', color: '#d4a028' },
+              { value: 'Consumo', type: 'rect', color: '#27761E' }
             ]}
           />
           <Bar dataKey="consumption" fill="#27761E" barSize={12} />
