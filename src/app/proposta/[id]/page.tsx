@@ -4,6 +4,12 @@ import { getQueryClient } from '@/app/get-query-client'
 import { proposalsOptios } from '../proposalsOptions'
 import { ResponsiveScale } from './ResponsiveScale'
 
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Proposta | Luminisol'
+}
+
 export default function BudgetView({ params }: { params: { id: string } }) {
   const queryClient = getQueryClient()
 
