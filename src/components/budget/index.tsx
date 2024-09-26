@@ -233,17 +233,17 @@ export function Budget({ id }: BudgetProps) {
   const afterSalesTableData = {
     titles: ['DESCRIÇÂO', 'QUANT.', 'UNIDADE'],
     rows: [
-      ['Acompanhamento on-line diário do sistema gerador**', '1', 'ano'],
+      ['Acompanhamento on-line diário do sistema gerador**', '6', 'meses'],
       [
         'Suporte técnico junto ao fabricante dos equipamentos para a resolução de problemas ou entrada em garantia',
-        '1',
-        'ano'
+        '6',
+        'meses'
       ],
-      ['Análise e correção de faturas de energia elétrica', '1', 'ano'],
+      ['Análise e correção de faturas de energia elétrica', '6', 'meses'],
       [
         'Manutenções corretivas (para problemas provenientes de erros na execução da instalação)',
-        '1',
-        'ano'
+        '6',
+        'meses'
       ]
     ]
   }
@@ -474,7 +474,7 @@ export function Budget({ id }: BudgetProps) {
       >
         <div className="flex-1">
           <div className="py-[40px] text-[#27761E]">
-            <h3>LUMINISOL - 52.746.541/0001-67</h3>
+            <h3>LUMINISOL - 51.488.456/0001-83</h3>
           </div>
           <h3 className="text-4xl text-[#27761E]">ESPECIFICAÇÕES DO SISTEMA</h3>
           <section className="mt-[30px] flex w-full flex-col gap-[10px]">
@@ -510,7 +510,7 @@ export function Budget({ id }: BudgetProps) {
         contentStyle={{ marginLeft: '85px', marginRight: '85px' }}
       >
         <div className="py-[40px] text-[#27761E]">
-          <h3>LUMINISOL - 52.746.541/0001-67</h3>
+          <h3>LUMINISOL - 51.488.456/0001-83</h3>
         </div>
         <h3 className="text-4xl text-[#27761E]">DETALAMENTO DA PROPOSTA</h3>
         <section className="mt-[30px] flex w-full flex-col gap-[10px]">
@@ -546,7 +546,7 @@ export function Budget({ id }: BudgetProps) {
         contentStyle={{ marginLeft: '85px', marginRight: '85px' }}
       >
         <div className="py-[40px] text-[#27761E]">
-          <h3>LUMINISOL - 52.746.541/0001-67</h3>
+          <h3>LUMINISOL - 51.488.456/0001-83</h3>
         </div>
         <h3 className="text-4xl text-[#27761E]">FORMAS DE PAGAMENTO</h3>
         <section className="mt-[30px] flex w-full flex-col gap-[10px]">
